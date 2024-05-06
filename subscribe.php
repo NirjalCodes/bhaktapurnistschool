@@ -19,7 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "Thank you for subscribing!";
 } else {
     // If the form is not submitted, redirect back to the newsletter page
-    header("Location: index.html");
+    header("Location: hi.html");
     exit;
 }
 ?>
