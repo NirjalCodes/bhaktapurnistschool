@@ -3,46 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NIST School</title>
+    <title>School Newsletter</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-<header>
-    <h1>Welcome to NIST School</h1>
-</header>
-
-<nav>
-    <a href="#about">About Us</a>
-    <a href="#programs">Programs</a>
-    <a href="#admissions">Admissions</a>
-    <a href="#contact">Contact Us</a>
-</nav>
-
-<section id="about">
-    <h2>About Us</h2>
-    <p>NIST School is committed to providing quality education...</p>
-</section>
-
-<section id="programs">
-    <h2>Programs</h2>
-    <p>We offer a wide range of programs including...</p>
-</section>
-
-<section id="admissions">
-    <h2>Admissions</h2>
-    <p>Admissions information...</p>
-</section>
-
-<section id="contact">
-    <h2>Contact Us</h2>
-    <p>Contact information...</p>
-</section>
-
-<footer>
-    <p>&copy; 2024 NIST School</p>
-</footer>
-
-<script src="script.js"></script>
+    <form action="subscribe.php" method="post"></form>
+    <div class="container">
+        <div class="header">
+            <h1 class="headline">School Newsletter</h1>
+            <p class="subheadline">Stay updated with the latest news and events!</p>
+            <form action="subscribe.php" method="post">
+                <label for="email">Subscribe to our newsletter:</label>
+                <input type="email" id="email" name="email" placeholder="Your email address" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+        <div class="section">
+            <h2>News</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec velit condimentum, dictum justo nec, auctor purus.</p>
+        </div>
+        <div class="section">
+            <h2>Events</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec velit condimentum, dictum justo nec, auctor purus.</p>
+        </div>
+        <div class="section">
+            <h2>Reminders</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec velit condimentum, dictum justo nec, auctor purus.</p>
+        </div>
+    </div>
 </body>
 </html>
